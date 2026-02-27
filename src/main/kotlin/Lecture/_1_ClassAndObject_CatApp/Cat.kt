@@ -19,6 +19,6 @@ class Cat(val name: String, var age: Int, var weight: Int) {
     // METHOD: toString() returns a string representation of the object.
     // We use 'override' because all Kotlin classes already has a toString() method.
     override fun toString(): String {
-        return "Name:## $name Age: $age Weight: $weight"
+        return "Name: $name Age: $age Weight: $weight"
     }
 }

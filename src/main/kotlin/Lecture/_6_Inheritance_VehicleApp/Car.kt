@@ -6,7 +6,7 @@ package Lecture._6_Inheritance_VehicleApp
     The colon (:) means Car inherits from Vehicle.
     We must call the Vehicle constructor and pass the values it requires. */
 
-class Car(make: String, topSpeed: Int, private val engineCapacity: Int) : Lecture._6_Inheritance_VehicleApp.Vehicle(make, topSpeed, 4) {        // Cars always have 4 wheels
+class Car(make: String, topSpeed: Int, private val engineCapacity: Int) : Vehicle(make, topSpeed, 4) {        // Cars always have 4 wheels
 
     private var engineRunning = false
 

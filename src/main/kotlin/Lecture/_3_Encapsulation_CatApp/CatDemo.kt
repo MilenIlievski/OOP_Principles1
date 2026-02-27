@@ -5,7 +5,7 @@ fun main() {
 
     /* sniffy is an OBJECT (instance) of the Cat class.
         We create it by calling the constructor. */
-    val sniffy = _root_ide_package_.Lecture._3_Encapsulation_CatApp.Cat("Sniffy", 5, 7)
+    val sniffy = Cat("Sniffy", 5, 7)
 
     // We can print the object directly. println(object) automatically uses toString()
     println(sniffy)

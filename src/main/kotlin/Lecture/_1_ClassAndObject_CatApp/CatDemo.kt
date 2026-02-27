@@ -8,8 +8,8 @@ fun main() {
     // Here, binnie and clyde are objects of the Cat class.
     // We are calling the CONSTRUCTOR to create them.
 
-    val binnie = _root_ide_package_.Lecture._1_ClassAndObject_CatApp.Cat("Binnie", 10, 10)
-    val clyde = _root_ide_package_.Lecture._1_ClassAndObject_CatApp.Cat("Clyde", 5, 5)
+    val binnie = Cat("Binnie", 10, 10)
+    val clyde = Cat("Clyde", 5, 5)
 
     // Calling a METHOD on each object
     binnie.walk()

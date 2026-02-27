@@ -1,7 +1,7 @@
 package Lecture._3_Encapsulation_CatApp
 
 // This file contains the Cat CLASS (the blueprint)
-class Cat(private val name: String, private var age: Int, private var weight: Int) {
+class Cat(private val name: String, private var age: Int, var weight: Int) {
 
     /* ENCAPSULATION: The properties are PRIVATE, so they cannot be accessed from outside the class.
         This keeps the internal state hidden from other code and prevents corruption. */

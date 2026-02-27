@@ -3,7 +3,7 @@ package Lecture._5_MethodParameters_CatApp
 // Demonstrates passing ARGUMENTS to a method
 fun main() {
 
-    val sniffy = _root_ide_package_.Lecture._5_MethodParameters_CatApp.Cat("Sniffy", 10, 15)
+    val sniffy = Cat("Sniffy", 10, 15)
 
     /* ARGUMENT vs PARAMETER:
         distance (in Cat class) → PARAMETER

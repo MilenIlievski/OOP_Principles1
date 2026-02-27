@@ -6,8 +6,8 @@ fun main() {
     // p1 and p2 are objects (instances) of the Point data class.
     // We are calling the CONSTRUCTOR to initialise the objects.
 
-    val p1 = _root_ide_package_.Lecture._2_DataClass_XYPoint.Point(0, 5)
-    val p2 = _root_ide_package_.Lecture._2_DataClass_XYPoint.Point(5, 2)
+    val p1 = Point(0, 5)
+    val p2 = Point(5, 2)
 
     // Accessing PROPERTIES
     println("Point 1 -> x: ${p1.x}, y: ${p1.y}")
